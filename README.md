@@ -1,6 +1,6 @@
 # ExStopper
 
-A Chrome extension to quickly disable and re-enable multiple extensions at once, with automatic page reload and optional DevTools opening.
+A Chrome extension to quickly disable and re-enable multiple extensions at once, with automatic page reload and extra cacheless reload button.
 
 ## Features
 

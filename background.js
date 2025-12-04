@@ -33,6 +33,8 @@ async function disableExtensions(extensionIds, currentTabId) {
   
   await chrome.storage.sync.set({ disabledByUs: disabledList });
   
+  await new Promise(resolve => setTimeout(resolve, 100));
+  
   if (currentTabId) {
     await chrome.tabs.reload(currentTabId, { bypassCache: false });
   }
